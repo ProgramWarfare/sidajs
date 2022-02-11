@@ -6,7 +6,7 @@ showdiv(imageCounter);
 
 function changeImage(m) {
 
-    Showdiv(imagecounter = imageCounter + m);
+    Showdiv(imageCounter = imageCounter + m);
 
 }
 
@@ -14,7 +14,7 @@ function Showdiv (n) {
 
     var i;
 
-    var imageArray = document.getElementsByClassName ("mySlides");
+    var imageArray = document.getElementsByClassName ("myslides");
 
     if (n > imageArray.length) { 
 
