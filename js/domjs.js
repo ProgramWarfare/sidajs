@@ -14,7 +14,7 @@ function ShowDiv (n) {
 
     var i;
 
-    var imageArray = document.getElementsByClassName ("myslides");
+    var imageArray = document.getElementsByClassName ("mySlides");
 
     if (n > imageArray.length) { 
 
