@@ -1,12 +1,12 @@
 "use strict";
 
-var imagecounter= 1;
+var imageCounter= 1;
 
-showdiv(imagecounter);
+showdiv(imageCounter);
 
-function changeteam(m) {
+function changeImage(m) {
 
-    Showdiv(imagecounter = imagecounter + m);
+    Showdiv(imagecounter = imageCounter + m);
 
 }
 
@@ -14,17 +14,17 @@ function Showdiv (n) {
 
     var i;
 
-    var imageArray = document.getElementsByClassName ("myslides");
+    var imageArray = document.getElementsByClassName ("mySlides");
 
     if (n > imageArray.length) { 
 
-        imagecounter = 1;
+        imageCounter = 1;
 
 }
 
 if (n < 1) {
 
-    imagecounter = imageArray.length;
+    imageCounter = imageArray.length;
 
 }
 
@@ -34,6 +34,6 @@ for (i = 0; i < imageArray.length; i++) {
 
 }
 
-imageArray[imagecounter - 1].style.display = "block";
+imageArray[imageCounter - 1].style.display = "block";
 
 }
