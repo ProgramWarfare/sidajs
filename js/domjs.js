@@ -6,7 +6,7 @@ ShowDiv(imageCounter);
 
 function changeImage(m) {
 
-    ShowDiv(imagecounter = imageCounter + m);
+    ShowDiv(imageCounter = imageCounter + m);
 
 }
 
