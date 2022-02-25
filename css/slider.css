@@ -22,6 +22,9 @@
     transform: translate(0%, -50%);
     -ms-transform: translate(0%, -50%);
 }
+.windows{
+    border: 100px 300px;
+}
 
 .slider-button:hover {
     color: rgb(176, 255, 169);
