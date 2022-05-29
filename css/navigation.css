@@ -1,0 +1,7 @@
+body {
+    background-color: aqua;
+}
+#p {
+    max-width: 500px;
+    max-height: 700px;
+}
