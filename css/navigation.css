@@ -1,7 +1,7 @@
 body {
     background-color: aqua;
 }
-#p {
+#p, #p1, #p2, #p3, #p4 {
     max-width: 500px;
     max-height: 700px;
 }
