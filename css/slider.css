@@ -23,6 +23,20 @@
     -ms-transform: translate(0%, -50%);
 }
 
+.slider-button {
+cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
 .slider-button:hover {
     color: rgb(176, 255, 169);
 }
